@@ -5,7 +5,6 @@
 
 - I’m looking for help with **ML**
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
