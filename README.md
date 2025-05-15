@@ -3,7 +3,7 @@
 
 - I’m currently learning **py**
 
-- I’m looking for help with **ML**
+- I’m looking for help with ** algorithms**
 
 <p align="left">
 </p>
