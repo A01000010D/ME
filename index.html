@@ -6,10 +6,10 @@
   body {
       background-color: black;
           color: white;
-              font-family: Arial, sans-serif;
-                  padding: 20px;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+                  padding: 40px; /* More padding */
                       display: flex;
-                          flex-direction: column; /* Arrange items vertically */
+                          flex-direction: column;
                           justify-content: center;
                               align-items: center;
                                   min-height: 100vh;
@@ -18,33 +18,44 @@
 
                                           .text-container {
                                               text-align: center;
-                                                margin-bottom: 20px; /* Add some space between text and image */
+                                                margin-bottom: 30px; /* More space */
                                                 }
 
+                                                h1 {
+                                                    font-size: 3em; /* Larger title */
+                                                        font-weight: bold; /* Make it stand out */
+                                                            letter-spacing: 2px; /* Add some spacing */
+                                                                margin-bottom: 10px; /* Space below the main title */
+                                                                  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+                                                                    }
+
                                                 img {
-                                                    border-radius: 50%; /* Make the image circular */
-                                                    width: 500px; /* Adjust size as needed */
-                                                    height: 500px;
-                                                    object-fit: cover; /* Ensure the image fills the circle */
-                                                      }
+                                                    border-radius: 50%;
+                                                    width: 250px; /* Adjusted size for better balance */
+                                                    height: 250px;
+                                                    object-fit: cover;
+                                                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* More pronounced shadow */
+                                                            transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+                                                              }
+
+                                                                img:hover {
+                                                                    transform: scale(1.05); /* Slight zoom on hover */
+                                                                      }
 
                                                 a {
-                                                    text-decoration: none; /* Remove underline from the link */
+                                                    text-decoration: none;
                                                       }
                                                 </style>
                                                 </head>
                                                 <body>
 
                                                   <div class="text-container">
-                                                      <h1></h1>
-                                                          <h1>
-                                                  A01000010D
-                                                        </h1>
-                                                            </div>
+                                                      <h1>A01000010D</h1>
+                                                          </div>
 
-                                                            <a href="https://github.com/your-github-username">
-                                                              <img src="https://avatars.githubusercontent.com/u/207436166?v=4" alt="Link to GitHub Profile">
-                                                            </a>
+                                                          <a href="https://github.com/your-github-username">
+                                                            <img src="https://avatars.githubusercontent.com/u/207436166?v=4" alt="Link to GitHub Profile">
+                                                          </a>
 
-                                                            </body>
-                                                            </html>
+                                                          </body>
+                                                          </html>
