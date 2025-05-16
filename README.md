@@ -1,9 +1,9 @@
 <h1 align="left">Hi I'm ABD</h1>
 <h3 align="left">A passionate backend developer</h3>
 
-- I’m currently learning **py**
+- I’m currently learning **algorithms**
 
-- I’m looking for help with **algorithms**
+- I’m looking for help with **math**
 
 <p align="left">
 </p>
