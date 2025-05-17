@@ -4,41 +4,43 @@
   <title>MY WEBSITE</title>
   <style>
     body {
-      background-color: #000000; /* Light grey background */
-      color: #ffffff; /* white text */
+      background-color: #f0f0f0; /* Light grey background */
+      color: #333; /* Dark grey text */
       font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
-      min-height: 50vh;
+      min-height: 100vh; /* Ensure full viewport height */
     }
 
     .business-card {
-      background-color: black;
+      background-color: #ffffff;
       border-radius: 10px;
-      padding: 100px;
-      width: 100px;
+      padding: 40px; /* Increased padding for better spacing */
+      width: 300px; /* More reasonable width for a business card */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       position: relative; /* For absolute positioning of the logo */
+      text-align: center; /* Center the initial content */
     }
 
     .name {
       font-size: 2.2em;
       font-weight: bold;
       margin-bottom: 5px;
-      color: #fff; /* brighter name */
+      color: #2c3e50; /* Darker, professional color */
     }
 
     .title {
       font-size: 1.3em;
-      color: #fff;
+      color: #777;
       margin-bottom: 25px;
     }
 
     .contact-info {
       margin-top: 30px;
+      text-align: left; /* Align contact info to the left */
     }
 
     .contact-info p {
@@ -48,11 +50,11 @@
     }
 
     .contact-info img {
-      width: 24px;
-      height: 24px;
-      margin-right: 15px;
+      width: 20px; /* Slightly smaller icons */
+      height: 20px;
+      margin-right: 10px;
       vertical-align: middle;
-      opacity: 0.8;
+      opacity: 0.7;
     }
 
     .logo-container {
@@ -63,21 +65,22 @@
     }
 
     .logo {
-        width: 70px; /* Increased logo size */
+        width: 60px; /* Adjusted logo size */
         height: auto;
-        opacity: 0.9;
+        opacity: 0.8;
+        border-radius: 5px; /* Optional: slightly rounded logo */
     }
 
     .logo-text {
-        font-size: 0.9em;
-        color: #fff;
-        margin-top: 8px;
+        font-size: 0.8em;
+        color: #555;
+        margin-top: 5px;
     }
 
     .slogan {
         font-style: italic;
-        color: #fff;
-        font-size: 0.85em;
+        color: #999;
+        font-size: 0.8em;
     }
   </style>
 </head>
