@@ -1,96 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>A1</title>
-<style>
-  body {
-    background-color: black;
-    color: white;
-    font-family: sans-serif;
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
+  <title>Business Card</title>
+  <style>
+    body {
+      background-color: #f0f0f0; /* Light grey background */
+      color: #333; /* Dark grey text */
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
 
-  .business-card {
-    background-color: black;
-    border: 1px solid #333;
-    padding: 30px;
-    width: 400px;
-    box-shadow: 5px 5px 15px #111;
-  }
+    .business-card {
+      background-color: white;
+      border-radius: 10px;
+      padding: 40px;
+      width: 400px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      position: relative; /* For absolute positioning of the logo */
+    }
 
-  .name {
-    font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
+    .name {
+      font-size: 2.2em;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #222; /* Darker name */
+    }
 
-  .title {
-    font-size: 1.2em;
-    color: #ddd;
-    margin-bottom: 20px;
-  }
+    .title {
+      font-size: 1.3em;
+      color: #666;
+      margin-bottom: 25px;
+    }
 
-  .contact-info {
-    margin-top: 20px;
-  }
+    .contact-info {
+      margin-top: 30px;
+    }
 
-  .contact-info p {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
+    .contact-info p {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
 
-  .contact-info img {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    vertical-align: middle;
-  }
+    .contact-info img {
+      width: 24px;
+      height: 24px;
+      margin-right: 15px;
+      vertical-align: middle;
+      opacity: 0.8;
+    }
 
-  .logo-container {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    text-align: right;
-  }
+    .logo-container {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        text-align: right;
+    }
 
-  .logo {
-    width: 50px;
-    height: auto;
-    opacity: 0.7;
-  }
+    .logo {
+        width: 70px; /* Increased logo size */
+        height: auto;
+        opacity: 0.9;
+    }
 
-  .logo-text {
-    font-size: 0.9em;
-    color: #aaa;
-    margin-top: 5px;
-  }
+    .logo-text {
+        font-size: 0.9em;
+        color: #777;
+        margin-top: 8px;
+    }
 
-  .slogan {
-    font-style: italic;
-    color: #888;
-    font-size: 0.8em;
-  }
-</style>
+    .slogan {
+        font-style: italic;
+        color: #999;
+        font-size: 0.85em;
+    }
+  </style>
 </head>
 <body>
 
   <div class="business-card">
     <div class="logo-container">
       <img src="https://avatars.githubusercontent.com/u/207436166?v=4" alt="Logo" class="logo">
-      <div class="logo-text">A01000010D<br><span class="slogan">.</span></div>
+      <div class="logo-text"> always all ways<br><span class="slogan">SLOGAN HERE</span></div>
     </div>
     <div class="name">ABD</div>
     <div class="title">CS & MATH</div>
     <div class="contact-info">
-      <p><img src="https://cdn-icons-png.flaticon.com/32/35/35313.png" alt="Phone">TG : A01000010D</p>
+      <p><img src="https://fontawesome.com/icons/phone" alt="Phone"> TG : A01000010</p>
       <p><img src="https://cdn-icons-png.flaticon.com/32/561/561127.png" alt="Email"> a01000010d@gemail.com</p>
-      <p><img src="https://cdn-icons-png.flaticon.com/32/808/808517.png" alt="Website"> www.github.com/A01000010D</p>
+      <p><img src="https://iconscout.com/icons/best-quality-web" alt="Website"> www.github.com/A01000010D</p>
     </div>
   </div>
 
